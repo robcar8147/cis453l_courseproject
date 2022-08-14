@@ -1,0 +1,173 @@
+section.create p
+{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+button
+{
+    background-color: #e5272b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px 15px;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+hr.solid
+{
+    border-top: 1px solid #111;
+}
+
+section.availabletop
+{
+    border: 1px solid #111;
+    border-radius: 5px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 15px;
+}
+
+section.availabletop h4
+{
+    font-weight: 900;
+    font-size: 25px;
+    padding: 0;
+}
+
+section.availabletop p
+{
+    font-size: 20px;
+    padding: 5px;
+}
+
+section.orderoptions
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+section.orderoptions > section
+{
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #111;
+    border-right: 1px solid #111;
+    border-left: 1px solid #111;
+}
+
+section.orderoptions > section:nth-child(even)
+{
+    border-left: none;
+}
+
+div.subs h3.subsheader
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+div.pasta ul.sizes
+{
+    font-size: 25px;
+}
+
+section.pastaoptions
+{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+section.pastaoptions > section
+{
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #111;
+    border-right: 1px solid #111;
+    border-left: 1px solid #111;
+}
+
+div.stixwings p
+{
+    font-weight: 800;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+section.cinnstix, section.appstix, ul.sizes
+{
+    font-size: 25px;
+}
+
+section.boneless ul.sizes
+{
+    font-size: 20px;
+}
+
+section.drinks > section.orderoptions > section
+{
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #111;
+    border-right: 1px solid #111;
+    border-left: 1px solid #111;
+    border-bottom: 1px solid #111;
+}
+
+section.drinks > section.orderoptions > section:nth-child(even)
+{
+    border-left: none;
+}
+
+section.drinks, section.sides h3
+{
+    font-size: 25px;
+}
+
+section.sides p
+{
+    font-size: 30px;
+}
+
+section.sides > section.orderoptions > section
+{
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #111;
+    border-right: 1px solid #111;
+    border-left: 1px solid #111;
+    border-bottom: 1px solid #111;
+}
+
+section.sides > section.orderoptions > section:nth-child(-n+2)
+{
+    border-bottom: none;
+}
+
+section.sides > section.orderoptions > section:nth-child(even)
+{
+    border-left: none;
+}
+
+ul.sizes li
+{
+    font-style: italic;
+    display: inline;
+    list-style-type: none;
+    margin: 20px;
+}
+
+ul.sizes
+{
+    padding: 0;
+}

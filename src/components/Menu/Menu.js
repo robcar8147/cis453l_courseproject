@@ -11,6 +11,7 @@ import Subs from "./Subs";
 import Pasta from "./Pasta";
 import StixWings from "./StixWings";
 import DrinksSides from "./DrinksSides";
+import "./Menu.css";
 
 export default class Menu extends Component
 {
