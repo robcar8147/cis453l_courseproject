@@ -1,0 +1,35 @@
+div.header
+{
+    background-color: #e5272b;
+    color: #fff;
+    padding: auto;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+img
+{
+    width: 140px;
+    height: 100px;
+}
+
+div.header li
+{
+    display: inline-block;
+    list-style-type: none;
+    margin: 60px;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.active
+{
+    text-decoration: underline;
+}
+
+
+div.header li:hover
+{
+    background-color: #921d1f;
+    color: #fff;
+}

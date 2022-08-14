@@ -6,6 +6,7 @@ import
     NavLink,
     HashRouter
 } from "react-router-dom";
+import Header from "../Header/Header.js";
 import Pizza from "./Pizza";
 import Subs from "./Subs";
 import Pasta from "./Pasta";
@@ -19,20 +20,7 @@ export default class Menu extends Component
     {
         return(
             <HashRouter>
-                <div className = "header">
-                    <ul className = "left">
-                        <li>PK</li>
-                        <li>MENU</li>
-                        <li>SPECIALS</li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li>LOG IN</li>
-                        <li>CART</li>
-                    </ul>
-                </div>
+                <Header />
                 <div className = "menu">
                     <ul className = "menuHeader">
                         <li><NavLink to = "/">PIZZA</NavLink></li>
