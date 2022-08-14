@@ -1,0 +1,52 @@
+div.footer
+{
+    background-color: #111;
+    color: #fff;
+    padding: 5px;
+}
+
+div.footer > section.thankyou p
+{
+    font-weight: 900;
+    font-size: 25px;
+}
+
+div.footer > section.footerinfo p
+{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+section.footerinfo
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+div.footer button
+{
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #111;
+    padding: 20px 5px;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.apple
+{
+    width: 16px;
+    height: 20px;
+}
+
+.google
+{
+    width: 30px;
+    height: 30px;
+}

@@ -9,47 +9,6 @@ h1, h2, h3, h4, p, ul, li
     font-family: "Inter";
 }
 
-div.footer
-{
-    background-color: #111;
-    color: #fff;
-    padding: 5px;
-}
-
-div.footer > section.thankyou p
-{
-    font-weight: 900;
-    font-size: 25px;
-}
-
-div.footer > section.footerinfo p
-{
-    font-weight: 900;
-    font-size: 20px;
-}
-
-section.footerinfo
-{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 0px;
-    grid-auto-rows: minmax(100px, auto);
-}
-
-div.footer button
-{
-    background-color: #fff;
-    border: none;
-    border-radius: 5px;
-    color: #111;
-    padding: 15px 0;
-    font-weight: 800;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-}
-
 h2
 {
     font-weight: 800;

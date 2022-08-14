@@ -12,6 +12,7 @@ import Subs from "./Subs";
 import Pasta from "./Pasta";
 import StixWings from "./StixWings";
 import DrinksSides from "./DrinksSides";
+import Footer from "../Footer/Footer.js";
 import "./Menu.css";
 
 export default class Menu extends Component
@@ -39,25 +40,7 @@ export default class Menu extends Component
                         <Route path = "/drinkssides" element = {<DrinksSides />}/>
                     </Routes>
                 </div>
-                <div className = "footer">
-                    <section className = "thankyou">
-                        <p>Thank you for being our customer!</p>
-                    </section>
-                    <section className = "footerinfo">
-                        <section className = "footerapps">
-                            <p>ORDER FROM OUR APP</p>
-                            <ul className = "apps">
-                                <h3> Apple App Store</h3>
-                                <h3> Google Play Store</h3>
-                            </ul>
-                        </section>
-                        <section className = "contact">
-                            <p>CONTACT US</p>
-                            <button type = "button">CUSTOMER SERVICE</button>
-                        </section>
-                    </section>
-                    <p>Copyright 2022 Pizza King Inc. All rights reserved.</p>
-                </div>
+                <Footer />
             </HashRouter>
         );
     }
