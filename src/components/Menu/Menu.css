@@ -47,6 +47,11 @@ button
     font-size: 20px;
 }
 
+button:hover
+{
+    background-color: #921d1f;
+}
+
 hr.solid
 {
     border-top: 1px solid #111;
